@@ -7,11 +7,15 @@ const toggleTheme = () => {
         mainTheme = "dark"
         html.dataset.theme = mainTheme;
         console.log("Setting Theme to ", mainTheme);
+        var btn = document.getElementById("theme-switcher");
+        btn.innerHTML = "🌞 Light Mode";
     }
 
     else {
         mainTheme = "light"
         html.dataset.theme = mainTheme;
         console.log("Setting Theme to ", mainTheme);
+        var btn = document.getElementById("theme-switcher");
+        btn.innerHTML = "🌑 Dark Mode";
     }
 }
