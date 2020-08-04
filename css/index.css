@@ -5,3 +5,15 @@
    margin-left: 1.5rem;
    margin-right: 1.5rem;
 }
+
+html[theme='dark'] {
+    filter: invert(1) hue-rotate(180deg);
+}
+
+html[theme='dark'] img{
+    filter: invert(1) hue-rotate(180deg);
+}
+
+html {
+    transition: color 300ms, background-color 300ms;
+}
