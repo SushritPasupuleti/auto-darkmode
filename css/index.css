@@ -6,11 +6,11 @@
    margin-right: 1.5rem;
 }
 
-html[theme='dark'] {
+html[data-theme='dark'] {
     filter: invert(1) hue-rotate(180deg);
 }
 
-html[theme='dark'] img{
+html[data-theme='dark'] img{
     filter: invert(1) hue-rotate(180deg);
 }
 
